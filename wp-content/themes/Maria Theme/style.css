@@ -1,0 +1,132 @@
+/*
+ Theme Name:   Maria-Portfoilo theme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700|Old+Standard+TT);
+/*button*/
+.wpcf7-submit{
+    color: #F5F5F5;
+    background-color: #E040FB;
+}
+/*Navbar */
+
+.navbar-default{
+    background-color:#9E9E9E ;
+    /*color:white;
+    */border-color: #9E9E9E;
+    float: center;
+}
+a:hover {
+    background-color: ;
+ }
+
+.page-title{
+    color: #212121;
+    font-size: 85px;
+}
+/* header text*/
+body {
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    /*line-height: 1.42857143;*/
+    color:#727272;
+    
+}
+.a{
+    color: #1976D2;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #c3b0c3;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background:none;
+}
+
+a {
+    color:#9E9E9E;
+    text-decoration: none;
+}
+/* body text*/
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color:white;
+}
+#main-menu{
+    float:right;
+    font-size: 20px;
+    color: white;
+}
+
+div.jumbotron{
+height:10px;
+padding-top: 20px;
+}
+
+#content{
+    padding:0px;
+}
+div#navbar-collapse.collapse.navbar-collapse{
+    padding:0px;
+}
+ 
+ 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #212121;
+    background: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+button, input, select, textarea {
+    
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #E040FB;
+    background-color: transparent;
+}
+/*.site-title a {
+    color: #FFFFFF;
+}*/
+.site-header-inner.col-sm-12 {
+    background-color: #616161;
+    padding:5%;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+h1.page-title{
+    text-align: center;
+}
+
+.site-header-inner.col-sm-12 {
+    background-color: #616161;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-bottom: 10px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
